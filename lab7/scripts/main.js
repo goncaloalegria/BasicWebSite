@@ -84,7 +84,7 @@ function criarProdutoCard(prod){
   h3.textContent = prod.title
 
   const img = document.createElement('img')
-  img.src = prod.image
+  img.src = `https://deisishop.pythonanywhere.com${prod.image}`
   img.alt = prod.title
 
   const desc = document.createElement('p')
